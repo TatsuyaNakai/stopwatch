@@ -1,0 +1,40 @@
+main {
+  margin-top: 8%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#timer {
+  font-size: 90px;
+  margin-top: 24px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.blur {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+}
+
+.btnList button {
+  padding: 20px 50px;
+  margin: 40px 5px;
+  background: whitesmoke;
+  cursor: pointer;
+  border: 1px solid #bbbbbb;
+}
+
+.btnList .clicked {
+  pointer-events: none;
+  background: #919191;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

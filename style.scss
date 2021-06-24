@@ -1,0 +1,44 @@
+
+
+main{
+    margin-top:8%;
+    text-align:center;
+    
+}
+
+h1{
+    font-size:20px;
+    letter-spacing: 0.8px;
+}
+
+h3{
+    font-size:36px;
+    margin-bottom:30px;
+}
+
+#timer{
+    font-size:90px;
+    margin-top:24px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.blur{
+    filter: blur(25px);
+}
+
+.btnList{
+    & button{
+        padding:20px 50px;
+        margin:40px 5px;
+        background:rgb(245, 245, 245);
+        cursor:pointer;
+        border:1px solid #bbbbbb
+    }
+    & .clicked{
+        pointer-events: none;
+        background: rgb(145, 145, 145);
+        color:#fff;
+        
+    }
+}
+
